@@ -206,43 +206,83 @@
     </section>
 
     <!-- BAGIAN OPEN RECRUITMENT PANITIA -->
+<!-- BAGIAN OPEN RECRUITMENT PANITIA -->
     <section id="orec" class="py-16 px-4 bg-gradient-to-b from-pink-100/50 to-pink-200/40 border-y border-pink-200">
-        <div class="max-w-4xl mx-auto text-center space-y-6">
-            <span class="bg-rose-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
-                Now Hiring / Pendaftaran Panitia
-            </span>
-            <h2 class="text-3xl md:text-4xl font-extrabold text-pink-950">
-                Open Recruitment Panitia Kegiatan OSAQ 🌟
-            </h2>
-            <p class="text-pink-900/80 text-base leading-relaxed max-w-2xl mx-auto">
-                Halo teman-teman! OSAQ lagi buka kesempatan buat kamu yang mau belajar berorganisasi, nambah pengalaman, dan nyalurin ide-ide kreatif. Kami butuh panitia pelaksana untuk berbagai program kerja mendatang!
-            </p>
-
-            <div class="grid md:grid-cols-3 gap-4 text-left mt-6">
-                <div class="bg-white/80 p-5 rounded-xl border border-pink-200 shadow-sm">
-                    <div class="text-amber-500 text-2xl mb-2"><i class="fas fa-users font-black"></i></div>
-                    <h3 class="font-bold text-pink-950 text-sm">Divisi Acara & Humas</h3>
-                    <p class="text-xs text-slate-600 mt-1">Mengkonsep kegiatan seru dan menjalin komunikasi antar siswa/pihak luar.</p>
-                </div>
-                <div class="bg-white/80 p-5 rounded-xl border border-pink-200 shadow-sm">
-                    <div class="text-pink-500 text-2xl mb-2"><i class="fas fa-paint-brush font-black"></i></div>
-                    <h3 class="font-bold text-pink-950 text-sm">Divisi Dekdoc & PDD</h3>
-                    <p class="text-xs text-slate-600 mt-1">Mengabadikan momen, desain poster, dan menata tempat kegiatan.</p>
-                </div>
-                <div class="bg-white/80 p-5 rounded-xl border border-pink-200 shadow-sm">
-                    <div class="text-rose-500 text-2xl mb-2"><i class="fas fa-box-open font-black"></i></div>
-                    <h3 class="font-bold text-pink-950 text-sm">Divisi Logistik & Konsumsi</h3>
-                    <p class="text-xs text-slate-600 mt-1">Menyiapkan perlengkapan dan kebutuhan teknis operasional acara.</p>
-                </div>
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-10 space-y-3">
+                <span class="bg-rose-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                    Now Hiring / Pendaftaran Panitia
+                </span>
+                <h2 class="text-3xl md:text-4xl font-extrabold text-pink-950">
+                    Open Recruitment Panitia Kegiatan OSAQ 🌟
+                </h2>
+                <p class="text-pink-900/80 text-sm md:text-base leading-relaxed max-w-2xl mx-auto">
+                    Halo teman-teman! OSAQ lagi buka kesempatan buat kamu yang mau belajar berorganisasi, nambah pengalaman, dan nyalurin ide-ide kreatif. Kami butuh panitia pelaksana untuk berbagai program kerja mendatang!
+                </p>
             </div>
 
-            <div class="pt-4">
-                <a href="https://forms.gle/GQPjghk5m5KjZ5M16" target="_blank" class="inline-block bg-rose-500 hover:bg-rose-600 text-white font-extrabold px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition text-base transform hover:-translate-y-0.5">
-                    Isi Form Pendaftaran Panitia (Google Form) 📝
-                </a>
-                <p class="text-xs text-pink-800/70 mt-2 font-medium">
-                    *Jangan sampai terlewat, yuk gabung dan berkembang bareng OSAQ!
-                </p>
+            <!-- Grid Poster + Penjelasan Divisi -->
+            <div class="grid md:grid-cols-12 gap-8 items-center">
+                
+                <!-- Kolom Kiri: Poster Orec -->
+                <div class="md:col-span-5 flex flex-col items-center">
+                    <div class="bg-white p-3 rounded-2xl border-2 border-pink-300 shadow-lg hover:shadow-xl transition group w-full max-w-sm">
+                        <!-- GANTI LINK GAMBAR POSTER DI BAGIAN src="..." DI BAWAH INI -->
+                        <img 
+                            src="https://i.ibb.co.com/SXQ9rJdp/poster.jpg" 
+                            onclick="openModal(this.src, 'Poster Open Recruitment Panitia OSAQ 2026/2027')" 
+                            alt="Poster Open Recruitment OSAQ" 
+                            class="w-full h-auto rounded-xl object-cover cursor-pointer group-hover:scale-[1.02] transition-transform"
+                        >
+                        <p class="text-center text-xs text-rose-500 font-medium mt-2">
+                            💡 Klik/Sentuh poster untuk memperbesar
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Kolom Kanan: Daftar Divisi & Tombol Daftar -->
+                <div class="md:col-span-7 space-y-4">
+                    <div class="bg-white/80 p-5 rounded-xl border border-pink-200 shadow-sm flex items-start space-x-4">
+                        <div class="bg-amber-100 text-amber-500 p-3 rounded-lg text-xl">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-pink-950 text-sm">Divisi Acara & Humas</h3>
+                            <p class="text-xs text-slate-600 mt-1">Mengkonsep kegiatan seru dan menjalin komunikasi antar siswa/pihak luar.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white/80 p-5 rounded-xl border border-pink-200 shadow-sm flex items-start space-x-4">
+                        <div class="bg-pink-100 text-pink-500 p-3 rounded-lg text-xl">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-pink-950 text-sm">Divisi Dekdoc & PDD</h3>
+                            <p class="text-xs text-slate-600 mt-1">Mengabadikan momen, desain poster, dan menata tempat kegiatan.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white/80 p-5 rounded-xl border border-pink-200 shadow-sm flex items-start space-x-4">
+                        <div class="bg-rose-100 text-rose-500 p-3 rounded-lg text-xl">
+                            <i class="fas fa-box-open"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-pink-950 text-sm">Divisi Logistik & Konsumsi</h3>
+                            <p class="text-xs text-slate-600 mt-1">Menyiapkan perlengkapan dan kebutuhan teknis operasional acara.</p>
+                        </div>
+                    </div>
+
+                    <!-- Tombol Daftar -->
+                    <div class="pt-3 text-center md:text-left">
+                        <a href="https://forms.gle/GQPjghk5m5KjZ5M16" target="_blank" class="inline-block w-full sm:w-auto text-center bg-rose-500 hover:bg-rose-600 text-white font-extrabold px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition text-sm md:text-base transform hover:-translate-y-0.5">
+                            Isi Form Pendaftaran Panitia (Google Form) 📝
+                        </a>
+                        <p class="text-xs text-pink-800/70 mt-2 font-medium">
+                            *Jangan sampai terlewat, yuk gabung dan berkembang bareng OSAQ!
+                        </p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
